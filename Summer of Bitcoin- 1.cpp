@@ -133,7 +133,7 @@ int main()
 
     cout<<"Total Fees in Current Block : "<< totalFee << "\nTotal Weight : " << finalBlockWeight << "\n";
     cout<<"Transactions in Final Block : " << totalTransactions << "\n";
-    writeOutput(included_tx_vector, "block.txt");
+    writeOutput(included_tx_vector, "output1.txt");
 
     return 0;
 }
